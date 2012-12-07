@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
-  <includeClasses/>
+  <includeClasses>
+    <classEntry path="com.godpaper.as3.configs.LoggerConfig"/>
+    <classEntry path="com.godpaper.as3.utils.LogUtil"/>
+    <classEntry path="mx.core.mx_internal"/>
+    <classEntry path="mx.logging.AbstractTarget"/>
+    <classEntry path="mx.logging.ILogger"/>
+    <classEntry path="mx.logging.ILoggingTarget"/>
+    <classEntry path="mx.logging.Log"/>
+    <classEntry path="mx.logging.LogEvent"/>
+    <classEntry path="mx.logging.LogEventLevel"/>
+    <classEntry path="mx.logging.LogLogger"/>
+    <classEntry path="mx.logging.errors.InvalidCategoryError"/>
+    <classEntry path="mx.logging.errors.InvalidFilterError"/>
+    <classEntry path="mx.logging.targets.LineFormattedTarget"/>
+    <classEntry path="mx.logging.targets.TraceTarget"/>
+  </includeClasses>
   <includeResources/>
   <namespaceManifests/>
 </flexLibProperties>
