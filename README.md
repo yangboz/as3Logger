@@ -38,7 +38,11 @@ More configurations:
 	 * target.filters=LoggerConfig.filters;
 	 * target.level=LoggerConfig.level;
 	 
-Example
+Console output
 =========
 
 11:32:24.222->[DEBUG]->[34.352M]->ApplicationBase->applicationCompleteHandler@onContextCreated,driverInfo(software) is:true
+
+Code example
+=========
+https://github.com/yangboz/as3MQTT/blob/master/MQTTClient_AS3/src/MQTTClient_AS3.as
