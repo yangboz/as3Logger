@@ -28,15 +28,16 @@ Include Categories to Show Class Names:
 
 More configurations:
 =========
+import com.godpaper.as3.configs.LoggerConfig;
 
-	 * target.includeLevel=LoggerConfig.includeLevel;
-     * target.includeDate=LoggerConfig.includeDate;
-	 * target.includeCategory=LoggerConfig.includeCategory;
-	 * target.includeTime=LoggerConfig.includeTime;
-	 * target.includeMemory=LoggerConfig.includeMemory;
-	 * target.fieldSeparator=LoggerConfig.fieldSeparator;
-	 * target.filters=LoggerConfig.filters;
-	 * target.level=LoggerConfig.level;
+	 * LoggerConfig.includeLevel=true;
+     * LoggerConfig.includeDate=false;
+	 * LoggerConfig.includeCategory=true;
+	 * LoggerConfig.includeTime=true;
+	 * LoggerConfig.includeMemory=true;
+	 * LoggerConfig.fieldSeparator="->";
+	 * LoggerConfig.filters=["com.godpaper.as3.*"];
+	 * LoggerConfig.level=LogEventLevel.INFO;
 	 
 Console output
 =========
