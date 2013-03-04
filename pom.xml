@@ -105,4 +105,11 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
+	<organization>
+		<name>GODPAPER</name>
+		<url>http://www.godpaper.com</url>
+	</organization>
+	<name>as3Logger</name>
+	<url>https://github.com/yangboz/as3Logger</url>
+	<description>Flex's ILogger adapter to the AS3 project.</description>
 </project>
