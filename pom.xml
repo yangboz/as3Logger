@@ -32,11 +32,9 @@
 					<storepass />
 					<skipTests>true</skipTests>
 					<skipTest>true</skipTest>
-					<includeAsClasses>
-                      <sources>
-                        <directory>src/mx/core/</directory>                        
-                      </sources>
-                    </includeAsClasses>
+					<includes>
+		            	<include>src/**/*.as</include>
+		            <includes>
 				</configuration>
 				<dependencies>
 					<dependency>
