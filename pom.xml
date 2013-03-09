@@ -34,7 +34,7 @@
 					<skipTest>true</skipTest>
 					<includes>
 		            	<include>src/**/*.as</include>
-		            <includes>
+		            </includes>
 				</configuration>
 				<dependencies>
 					<dependency>
