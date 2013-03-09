@@ -33,7 +33,7 @@
 					<skipTests>true</skipTests>
 					<skipTest>true</skipTest>
 					<includeFiles>
-                      <file>src/*.as</file>
+                      <file>src/mx</file>
                     </includeFiles>
 					<includeAsClasses>
                       <sources>
