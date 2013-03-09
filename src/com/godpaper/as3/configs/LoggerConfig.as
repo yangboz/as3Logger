@@ -21,6 +21,9 @@
  */
 package com.godpaper.as3.configs
 {
+	import com.godpaper.as3.utils.LogUtil;
+	
+	import mx.logging.ILogger;
 	import mx.logging.LogEventLevel;
 
 	//--------------------------------------------------------------------------
@@ -56,7 +59,7 @@ package com.godpaper.as3.configs
 		//----------------------------------
 		//  CONSTANTS
 		//----------------------------------
-		
+		private static const LOG:ILogger = LogUtil.getLogger(LoggerConfig);//Keep this reference for Maven include source.
 		//--------------------------------------------------------------------------
 		//
 		//  Public properties
