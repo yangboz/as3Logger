@@ -32,13 +32,9 @@
 					<storepass />
 					<skipTests>true</skipTests>
 					<skipTest>true</skipTest>
-					<includeFiles>
-					  <scan>
-					    <includes>
-					      <include>src/**\/*.as3</include>
-					    </includes>
-					  </scan>
-					</includeFiles>
+					<includeSources>
+					  <includeSource>src</includeSource>
+					</includeSources>
 				</configuration>
 				<dependencies>
 					<dependency>
