@@ -47,3 +47,7 @@ Console output
 Code example
 =========
 https://github.com/yangboz/as3MQTT/blob/master/MQTTClient_AS3/src/MQTTClient_AS3.as
+
+Maven repository
+=========
+http://repository-godpaper.forge.cloudbees.com/snapshot/com/godpaper/as3/as3Logger/
