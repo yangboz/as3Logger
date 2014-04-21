@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/yangboz/as3Logger.svg?branch=master)](https://travis-ci.org/yangboz/as3Logger)
+
 as3Logger
 =========
 
